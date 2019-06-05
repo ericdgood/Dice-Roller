@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         btnRoll.setOnClickListener {
             rollDice()
-        Toast.makeText(this, "You rolled a $randomRoll", Toast.LENGTH_SHORT).show()}
+        Toast.makeText(this, "You rolled a $randomRoll /n Try again", Toast.LENGTH_SHORT).show()}
     }
 
      private fun rollDice() {
